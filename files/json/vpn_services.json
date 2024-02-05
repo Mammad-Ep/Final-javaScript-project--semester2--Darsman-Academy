@@ -1,0 +1,428 @@
+{
+    "vpn_servers": [
+        {
+            "server_id": "germany-location",
+            "server_name": "سرور آلمان",
+            "list_servers": [
+                {
+                    "id": 1,
+                    "period_of_time": "سرویس یکماهه + 1 روز هدیه ",
+                    "price": "110,000",
+                    "number_of_users": {
+                        "title": "تک کاربره",
+                        "description": "فقط برای یک دستگاه قابل استفاده"
+                    },
+                    "location": {
+                        "title": "لوکشین آلمان",
+                        "description": "آیپی کشور آلمان"
+                    },
+                    "ip_type": {
+                        "title": "آیپی ثابت",
+                        "description": "مخصوص بازی و ترید و وب گردی"
+                    },
+                    "connect_devices": {
+                        "title": "اتصال با تمامی دستگاه ها",
+                        "description": "کامپیوتر، موبایل ، تبلت"
+                    },
+                    "support": {
+                        "title": "پشتیبانی کامل",
+                        "description": "پشتیبانی بصورت 24 ساعته از طریق تلگرام"
+                    }
+                },
+                {
+                    "id": 2,
+                    "period_of_time": "سرویس سه ماهه + 3 روز هدیه ",
+                    "price": "220,000",
+                    "number_of_users": {
+                        "title": "تک کاربره",
+                        "description": "فقط برای یک دستگاه قابل استفاده"
+                    },
+                    "location": {
+                        "title": "لوکشین آلمان",
+                        "description": "آیپی کشور آلمان"
+                    },
+                    "ip_type": {
+                        "title": "آیپی ثابت",
+                        "description": "مخصوص بازی و ترید و وب گردی"
+                    },
+                    "connect_devices": {
+                        "title": "اتصال با تمامی دستگاه ها",
+                        "description": "کامپیوتر، موبایل ، تبلت"
+                    },
+                    "support": {
+                        "title": "پشتیبانی کامل",
+                        "description": "پشتیبانی بصورت 24 ساعته از طریق تلگرام"
+                    }
+                },
+                {
+                    "id": 3,
+                    "period_of_time": "سرویس شش ماهه + 6 روز هدیه ",
+                    "price": "450,000",
+                    "number_of_users": {
+                        "title": "تک کاربره",
+                        "description": "فقط برای یک دستگاه قابل استفاده"
+                    },
+                    "location": {
+                        "title": "لوکشین آلمان",
+                        "description": "آیپی کشور آلمان"
+                    },
+                    "ip_type": {
+                        "title": "آیپی ثابت",
+                        "description": "مخصوص بازی و ترید و وب گردی"
+                    },
+                    "connect_devices": {
+                        "title": "اتصال با تمامی دستگاه ها",
+                        "description": "کامپیوتر، موبایل ، تبلت"
+                    },
+                    "support": {
+                        "title": "پشتیبانی کامل",
+                        "description": "پشتیبانی بصورت 24 ساعته از طریق تلگرام"
+                    }
+                },
+                {
+                    "id": 4,
+                    "period_of_time": "سرویس یکساله + 20 روز هدیه ",
+                    "price": "800,000",
+                    "number_of_users": {
+                        "title": "تک کاربره",
+                        "description": "فقط برای یک دستگاه قابل استفاده"
+                    },
+                    "location": {
+                        "title": "لوکشین آلمان",
+                        "description": "آیپی کشور آلمان"
+                    },
+                    "ip_type": {
+                        "title": "آیپی ثابت",
+                        "description": "مخصوص بازی و ترید و وب گردی"
+                    },
+                    "connect_devices": {
+                        "title": "اتصال با تمامی دستگاه ها",
+                        "description": "کامپیوتر، موبایل ، تبلت"
+                    },
+                    "support": {
+                        "title": "پشتیبانی کامل",
+                        "description": "پشتیبانی بصورت 24 ساعته از طریق تلگرام"
+                    }
+                }
+            ]
+        },
+        {
+            "server_id": "usa-location",
+            "server_name": "سرور آمریکا",
+            "list_servers": [
+                {
+                    "id": 1,
+                    "period_of_time": "سرویس یکماهه + 1 روز هدیه ",
+                    "price": "150,000",
+                    "number_of_users": {
+                        "title": "تک کاربره",
+                        "description": "فقط برای یک دستگاه قابل استفاده"
+                    },
+                    "location": {
+                        "title": "لوکشین آمریکا",
+                        "description": "آیپی کشور آمریکا"
+                    },
+                    "ip_type": {
+                        "title": "آیپی ثابت",
+                        "description": "مخصوص بازی و ترید و وب گردی"
+                    },
+                    "connect_devices": {
+                        "title": "اتصال با تمامی دستگاه ها",
+                        "description": "کامپیوتر، موبایل ، تبلت"
+                    },
+                    "support": {
+                        "title": "پشتیبانی کامل",
+                        "description": "پشتیبانی بصورت 24 ساعته از طریق تلگرام"
+                    }
+                },
+                {
+                    "id": 2,
+                    "period_of_time": "سرویس سه ماهه + 3 روز هدیه ",
+                    "price": "300,000",
+                    "number_of_users": {
+                        "title": "تک کاربره",
+                        "description": "فقط برای یک دستگاه قابل استفاده"
+                    },
+                    "location": {
+                        "title": "لوکشین آمریکا",
+                        "description": "آیپی کشور آمریکا"
+                    },
+                    "ip_type": {
+                        "title": "آیپی ثابت",
+                        "description": "مخصوص بازی و ترید و وب گردی"
+                    },
+                    "connect_devices": {
+                        "title": "اتصال با تمامی دستگاه ها",
+                        "description": "کامپیوتر، موبایل ، تبلت"
+                    },
+                    "support": {
+                        "title": "پشتیبانی کامل",
+                        "description": "پشتیبانی بصورت 24 ساعته از طریق تلگرام"
+                    }
+                },
+                {
+                    "id": 3,
+                    "period_of_time": "سرویس شش ماهه + 6 روز هدیه ",
+                    "price": "570,000",
+                    "number_of_users": {
+                        "title": "تک کاربره",
+                        "description": "فقط برای یک دستگاه قابل استفاده"
+                    },
+                    "location": {
+                        "title": "لوکشین آمریکا",
+                        "description": "آیپی کشور آمریکا"
+                    },
+                    "ip_type": {
+                        "title": "آیپی ثابت",
+                        "description": "مخصوص بازی و ترید و وب گردی"
+                    },
+                    "connect_devices": {
+                        "title": "اتصال با تمامی دستگاه ها",
+                        "description": "کامپیوتر، موبایل ، تبلت"
+                    },
+                    "support": {
+                        "title": "پشتیبانی کامل",
+                        "description": "پشتیبانی بصورت 24 ساعته از طریق تلگرام"
+                    }
+                },
+                {
+                    "id": 4,
+                    "period_of_time": "سرویس یکساله + 20 روز هدیه ",
+                    "price": "950,000",
+                    "number_of_users": {
+                        "title": "تک کاربره",
+                        "description": "فقط برای یک دستگاه قابل استفاده"
+                    },
+                    "location": {
+                        "title": "لوکشین آمریکا",
+                        "description": "آیپی کشور آمریکا"
+                    },
+                    "ip_type": {
+                        "title": "آیپی ثابت",
+                        "description": "مخصوص بازی و ترید و وب گردی"
+                    },
+                    "connect_devices": {
+                        "title": "اتصال با تمامی دستگاه ها",
+                        "description": "کامپیوتر، موبایل ، تبلت"
+                    },
+                    "support": {
+                        "title": "پشتیبانی کامل",
+                        "description": "پشتیبانی بصورت 24 ساعته از طریق تلگرام"
+                    }
+                }
+            ]
+        },
+        {
+            "server_id": "turkey-location",
+            "server_name": "سرور ترکیه",
+            "list_servers": [
+                {
+                    "id": 1,
+                    "period_of_time": "سرویس یکماهه + 1 روز هدیه ",
+                    "price": "100,000",
+                    "number_of_users": {
+                        "title": "تک کاربره",
+                        "description": "فقط برای یک دستگاه قابل استفاده"
+                    },
+                    "location": {
+                        "title": "لوکشین ترکیه",
+                        "description": "آیپی کشور ترکیه"
+                    },
+                    "ip_type": {
+                        "title": "آیپی ثابت",
+                        "description": "مخصوص بازی و ترید و وب گردی"
+                    },
+                    "connect_devices": {
+                        "title": "اتصال با تمامی دستگاه ها",
+                        "description": "کامپیوتر، موبایل ، تبلت"
+                    },
+                    "support": {
+                        "title": "پشتیبانی کامل",
+                        "description": "پشتیبانی بصورت 24 ساعته از طریق تلگرام"
+                    }
+                },
+                {
+                    "id": 2,
+                    "period_of_time": "سرویس سه ماهه + 3 روز هدیه ",
+                    "price": "275,000",
+                    "number_of_users": {
+                        "title": "تک کاربره",
+                        "description": "فقط برای یک دستگاه قابل استفاده"
+                    },
+                    "location": {
+                        "title": "لوکشین ترکیه",
+                        "description": "آیپی کشور ترکیه"
+                    },
+                    "ip_type": {
+                        "title": "آیپی ثابت",
+                        "description": "مخصوص بازی و ترید و وب گردی"
+                    },
+                    "connect_devices": {
+                        "title": "اتصال با تمامی دستگاه ها",
+                        "description": "کامپیوتر، موبایل ، تبلت"
+                    },
+                    "support": {
+                        "title": "پشتیبانی کامل",
+                        "description": "پشتیبانی بصورت 24 ساعته از طریق تلگرام"
+                    }
+                },
+                {
+                    "id": 3,
+                    "period_of_time": "سرویس شش ماهه + 6 روز هدیه ",
+                    "price": "510,000",
+                    "number_of_users": {
+                        "title": "تک کاربره",
+                        "description": "فقط برای یک دستگاه قابل استفاده"
+                    },
+                    "location": {
+                        "title": "لوکشین ترکیه",
+                        "description": "آیپی کشور ترکیه"
+                    },
+                    "ip_type": {
+                        "title": "آیپی ثابت",
+                        "description": "مخصوص بازی و ترید و وب گردی"
+                    },
+                    "connect_devices": {
+                        "title": "اتصال با تمامی دستگاه ها",
+                        "description": "کامپیوتر، موبایل ، تبلت"
+                    },
+                    "support": {
+                        "title": "پشتیبانی کامل",
+                        "description": "پشتیبانی بصورت 24 ساعته از طریق تلگرام"
+                    }
+                },
+                {
+                    "id": 4,
+                    "period_of_time": "سرویس یکساله + 20 روز هدیه ",
+                    "price": "740,000",
+                    "number_of_users": {
+                        "title": "تک کاربره",
+                        "description": "فقط برای یک دستگاه قابل استفاده"
+                    },
+                    "location": {
+                        "title": "لوکشین ترکیه",
+                        "description": "آیپی کشور ترکیه"
+                    },
+                    "ip_type": {
+                        "title": "آیپی ثابت",
+                        "description": "مخصوص بازی و ترید و وب گردی"
+                    },
+                    "connect_devices": {
+                        "title": "اتصال با تمامی دستگاه ها",
+                        "description": "کامپیوتر، موبایل ، تبلت"
+                    },
+                    "support": {
+                        "title": "پشتیبانی کامل",
+                        "description": "پشتیبانی بصورت 24 ساعته از طریق تلگرام"
+                    }
+                }
+            ]
+        },
+        {
+            "server_id": "iran-location",
+            "server_name": "سرور ایران",
+            "list_servers": [
+                {
+                    "id": 1,
+                    "period_of_time": "سرویس یکماهه + 1 روز هدیه ",
+                    "price": "120,000",
+                    "number_of_users": {
+                        "title": "تک کاربره",
+                        "description": "فقط برای یک دستگاه قابل استفاده"
+                    },
+                    "location": {
+                        "title": "لوکشین ایران",
+                        "description": "آیپی کشور ایران"
+                    },
+                    "ip_type": {
+                        "title": "آیپی ثابت",
+                        "description": "مخصوص بازی و ترید و وب گردی"
+                    },
+                    "connect_devices": {
+                        "title": "اتصال با تمامی دستگاه ها",
+                        "description": "کامپیوتر، موبایل ، تبلت"
+                    },
+                    "support": {
+                        "title": "پشتیبانی کامل",
+                        "description": "پشتیبانی بصورت 24 ساعته از طریق تلگرام"
+                    }
+                },
+                {
+                    "id": 2,
+                    "period_of_time": "سرویس سه ماهه + 3 روز هدیه ",
+                    "price": "280,000",
+                    "number_of_users": {
+                        "title": "تک کاربره",
+                        "description": "فقط برای یک دستگاه قابل استفاده"
+                    },
+                    "location": {
+                        "title": "لوکشین ایران",
+                        "description": "آیپی کشور ایران"
+                    },
+                    "ip_type": {
+                        "title": "آیپی ثابت",
+                        "description": "مخصوص بازی و ترید و وب گردی"
+                    },
+                    "connect_devices": {
+                        "title": "اتصال با تمامی دستگاه ها",
+                        "description": "کامپیوتر، موبایل ، تبلت"
+                    },
+                    "support": {
+                        "title": "پشتیبانی کامل",
+                        "description": "پشتیبانی بصورت 24 ساعته از طریق تلگرام"
+                    }
+                },
+                {
+                    "id": 3,
+                    "period_of_time": "سرویس شش ماهه + 6 روز هدیه ",
+                    "price": "600,000",
+                    "number_of_users": {
+                        "title": "تک کاربره",
+                        "description": "فقط برای یک دستگاه قابل استفاده"
+                    },
+                    "location": {
+                        "title": "لوکشین ایران",
+                        "description": "آیپی کشور ایران"
+                    },
+                    "ip_type": {
+                        "title": "آیپی ثابت",
+                        "description": "مخصوص بازی و ترید و وب گردی"
+                    },
+                    "connect_devices": {
+                        "title": "اتصال با تمامی دستگاه ها",
+                        "description": "کامپیوتر، موبایل ، تبلت"
+                    },
+                    "support": {
+                        "title": "پشتیبانی کامل",
+                        "description": "پشتیبانی بصورت 24 ساعته از طریق تلگرام"
+                    }
+                },
+                {
+                    "id": 4,
+                    "period_of_time": "سرویس یکساله + 20 روز هدیه ",
+                    "price": "820,000",
+                    "number_of_users": {
+                        "title": "تک کاربره",
+                        "description": "فقط برای یک دستگاه قابل استفاده"
+                    },
+                    "location": {
+                        "title": "لوکشین ایران",
+                        "description": "آیپی کشور ایران"
+                    },
+                    "ip_type": {
+                        "title": "آیپی ثابت",
+                        "description": "مخصوص بازی و ترید و وب گردی"
+                    },
+                    "connect_devices": {
+                        "title": "اتصال با تمامی دستگاه ها",
+                        "description": "کامپیوتر، موبایل ، تبلت"
+                    },
+                    "support": {
+                        "title": "پشتیبانی کامل",
+                        "description": "پشتیبانی بصورت 24 ساعته از طریق تلگرام"
+                    }
+                }
+            ]
+        }
+    ]
+}

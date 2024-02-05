@@ -1,0 +1,28 @@
+{
+    "sliders": [
+        {
+            "id": 1,
+            "caption1": "rrrrrr",
+            "caption2": "bbbbbbb",
+            "img": "files/images/sliders/s1.jpg"
+        },
+        {
+            "id": 2,
+            "caption1": "",
+            "caption2": "",
+            "img": "files/images/sliders/s2.png"
+        },
+        {
+            "id": 3,
+            "caption1": "",
+            "caption2": "",
+            "img": "files/images/sliders/s3.jpg"
+        },
+        {
+            "id": 4,
+            "caption1": "aaaaaaaaaaa",
+            "caption2": "eeeeeeeeeeeeeeeeeeee",
+            "img": "files/images/sliders/s4.jpg"
+        }
+    ]
+}

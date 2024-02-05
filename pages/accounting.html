@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="فروش انواع وی پی ان در مدت زمان های مختلف">
+    <meta name="keywords" content="vpn,proxy,فیلترشکن,وی پی ان,پروکسی">
+    <meta name="robots" content="nofollow,noindex">
+    <meta name="author" content="mammad_ep">
+    <link rel="icon" href="../files/images/icons/icon-32.png" sizes="32x32" type="image/x-icon">
+    <link rel="icon" href="../files/images/icons/icon-64.png" sizes="64x64" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- <link rel="stylesheet" href="../css/main_style.css"> -->
+    <link rel="stylesheet" href="../css/accounting_style.css">
+
+    <title> پنل کاربری | مجیک وی پی ان</title>
+</head>
+
+<body class="rtl">
+
+
+    <main role="main">
+        <section class="accounting-container container-fluid">
+            <div class="accounting-container-inner">
+                <div class="accounting-container-back"></div>
+                <div class="accounting-box-container">
+                    <div class="accounting-box">
+                        <div class="account-register">
+                            <div class="account-title">
+                                <h2>ثبت نام</h2>
+                                <img src="../files/images/registered-document.png" alt="registered-document">
+                            </div>
+                            <form action="" method="get" id="register-form">
+                                <fieldset>
+                                    <legend>نام کامل / Fullname</legend>
+                                    <input type="text" name="fullname-register" id="fullname-register"
+                                        data-validation="isEmpty isBetween" data-name="نام کامل">
+                                </fieldset>
+                                <fieldset>
+                                    <legend> ایمیل / Email</legend>
+                                    <input type="email" name="email-register" id="email-register"
+                                        data-validation="isEmpty isEmail" data-name="ایمیل">
+                                </fieldset>
+                                <fieldset>
+                                    <legend> رمزعبور / Password </legend>
+                                    <input type="password" name="password1-register" id="password1-register"
+                                        data-validation="isEmpty isPassword" data-name="رمز عبور">
+                                </fieldset>
+                                <fieldset>
+                                    <legend> تکرار رمز عبور / Re-Password</legend>
+                                    <input type="password" name="password1-register" id="password2-register"
+                                        data-validation="isEmpty rePassword" data-name="تکرار رمز عبور">
+                                </fieldset>
+                                <button type="submit">ثبت نام / Reister</button>
+                            </form>
+                        </div>
+                        <div class="account-login">
+                            <div class="account-title">
+                                <h2>ورود</h2>
+                                <img src="../files/images/login-password.png" alt="login-document">
+                            </div>
+                            <form action="" method="get" id="login-form">
+                                <fieldset>
+                                    <legend> ایمیل / Email</legend>
+                                    <input type="email" name="email-login" id="email-login"
+                                        data-validation="isEmpty isEmail" data-name="ایمیل">
+                                </fieldset>
+                                <fieldset>
+                                    <legend> رمزعبور / Password</legend>
+                                    <input type="password" name="password-login" id="password-login"
+                                        data-validation="isEmpty" data-name="رمز عبور">
+                                </fieldset>
+                                <button type="submit">ورود / Login</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="accounting-left-title">
+                        <div class="accounting-left-logo">
+                            <img src="../files/images/icons/logo-accounting.png" alt="logo-accounting">
+                        </div>
+                        <button type="submit" id="register-button">ثبت نام / Reister</button>
+                        <span>یا / or</span>
+                        <button type="submit" id="login-button">ورود / Login</button>
+
+                        <div class="accounting-left-socials">
+                            <p>ما را در شبکه های اجتماعی دنبال کنید</p>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-telegram"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="messages-accounting">
+                    <div class="messages-form">
+                        <h3 class="messages-heading">پیغام ها</h3>
+                        <ul>
+                            <!-- <li></li>
+                            <li>این فیلد نباید خالی باشد</li>
+                            <li>این فیلد نباید خالی باشد</li>
+                            <li>این فیلد نباید خخالی باشد</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="../js/account_script.js"></script>
+    <!-- <script src="../js/main_script.js"></script> -->
+</body>
+
+</html>
