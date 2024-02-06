@@ -114,6 +114,25 @@ function navigation_top() {
 }
 // ______________________________________________________________________
 
+function toggle_search_nav() {
+    $('.search-nav i:nth-of-type(2)').click(function () {
+        $('#form-search').animate({ bottom: "-100px" },100);
+        $('#form-search').show();
+        $('.search-nav i:nth-of-type(2)').hide()
+        $('.search-nav i:nth-of-type(1)').show()
+        
+    });
+
+    $('.search-nav i:nth-of-type(1)').click(function () {
+        $('#form-search').animate({ bottom: "-130px" },100);
+        $('#form-search').hide(300);
+        $('.search-nav i:nth-of-type(2)').show()
+        $('.search-nav i:nth-of-type(1)').hide()
+        
+    });
+}
+// ______________________________________________________________________
+
 $(document).ready(function () {
 
     carousel_slider_header();
@@ -126,4 +145,6 @@ $(document).ready(function () {
     scroll_anchor_link();
 
     navigation_top();
+
+    toggle_search_nav()
 })
