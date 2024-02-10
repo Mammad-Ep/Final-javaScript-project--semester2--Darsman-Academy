@@ -61,7 +61,7 @@ var create_dom_index = {
       $('.carousel-indicators').append(`<li data-target="#carouselExampleIndicators" data-slide-to="${i}"></li>`);
 
       $('.carousel-inner').append('<div class="carousel-item"></div>');
-      $('.carousel-item').append(`<img class="d-block w-100" src="../${sliders[i].img}" alt="slide${i + 1}">`);
+      $('.carousel-item').append(`<img class="d-block w-100 h-100" src="../${sliders[i].img}" alt="slide${i + 1}">`);
       $('.carousel-item').append('<div class="carousel-caption d-none d-md-block"></div>');
       $('.carousel-caption').append(`<h5>${sliders[i].caption1}</h5>`);
       $('carousel-caption').append(`<p class="bg-success">${sliders[i].caption2}</p>`);
@@ -72,7 +72,7 @@ var create_dom_index = {
   },
 
   // ---------------------------------------------------------------------------------
-  
+
   create_vpn_card_services: function () {
     var vpn_servers = this.vpn_servers;
     // console.log(vpn_servers);
@@ -80,33 +80,32 @@ var create_dom_index = {
     for (let i = 0; i < vpn_servers.length; i++) {
       var server = vpn_servers[i]
       $('.services-location').append(`<button type="button" class="btn btn-lg btn-service" data-toggle="collapse" data-target=#${server.server_id}>${server.server_name}</button>`)
-      
+
     };
-    
+
     $('.btn-service[data-target="#germany-location"]').attr('id', 'btn-germany');
     $('.btn-service[data-target="#germany-location"]').addClass('btn-outline-dark');
-    
+
     $('.btn-service[data-target="#usa-location"]').attr('id', 'btn-usa');
     $('.btn-service[data-target="#usa-location"]').addClass('btn-outline-primary');
-    
+
     $('.btn-service[data-target="#turkey-location"]').attr('id', 'btn-turkey');
     $('.btn-service[data-target="#turkey-location"]').addClass('btn-outline-danger');
-    
+
     $('.btn-service[data-target="#iran-location"]').attr('id', 'btn-iran');
     $('.btn-service[data-target="#iran-location"]').addClass('btn-outline-success');
-    
-    
+
+
     for (let i = 0; i < vpn_servers.length; i++) {
       var server1 = vpn_servers[i];
-      
-    
-      $('.container-cards').append(`<div class="container-cards-inner"><div class="card-deck collapse fade" id=${server1.server_id} role="tabpanel" data-parent="#accordion"></div></div>`);
-      // $('.container-cards-inner').append(``);
+
+
+      $('.container-cards').append(`<div class="container-cards-inner"><div class="row no-gutters collapse fade" id=${server1.server_id} role="tabpanel" data-parent="#accordion"></div></div>`);
       for (let i = 0; i < server1.list_servers.length; i++) {
         const server_period = server1.list_servers[i];
         const card_id = server1.server_id + server_period.id;
-        
-        $(`#${server1.server_id}`).append(`<div class="card text-center" id='${card_id}'></div>`);
+
+        $(`#${server1.server_id}`).append(`<div class="col-md-6 col-xl-3"><div class="card text-center" id='${card_id}'></div></div>`);
         $(`#${card_id}`).append(`<div class="card-header"></div>`);
         $(`#${card_id} .card-header`).append(`<i class="fa-solid fa-shield-halved"></i>`);
         $(`#${card_id} .card-header`).append(`<span>${server_period.period_of_time}</span>`);
@@ -121,20 +120,20 @@ var create_dom_index = {
         $(`#${card_id} .card-body`).append(`<div class="card-subtitle"></div>`);
         $(`#${card_id} .card-subtitle`).append(`<button type="button" class="btn btn-success btn-block">خرید / سفارش </button>`);
       };
-      
+
     };
-    
+
     $('#germany-location').addClass('show');
     $('[data-toggle="tooltip"]').tooltip(
       { 'delay': { 'hide': 50, 'show': 200 } }
-      );
-      $('.tooltip-arrow').css('display', 'hidden')
-      
-    },
-    
-    // ---------------------------------------------------------------------------------
-    
-    create_frequently_asked_questions: function () {
+    );
+    $('.tooltip-arrow').css('display', 'hidden')
+
+  },
+
+  // ---------------------------------------------------------------------------------
+
+  create_frequently_asked_questions: function () {
     var questions_answers = this.frequently_asked_questions;
     for (let i = 0; i < questions_answers.length; i++) {
       const question_answer = questions_answers[i];

@@ -77,6 +77,11 @@
 
 /* --- Header-Top --- */
 
+.container-top-header{
+    margin: auto;
+    width: 80% !important;
+}
+
 .header-top {
     padding: 10px 0;
     margin: 0 auto;
@@ -97,7 +102,7 @@
 .header-top-contacts {
     align-items: center;
     width: 100%;
-    margin-left: auto;
+    float: left;
     text-align: left;
 }
 
@@ -118,29 +123,19 @@
 
 /* --- Navbar --- */
 
-/* .navbar {
-    transition: opacity 0.3s ease;
-  } */
-
+/* #navbar-container{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 15px;
+    z-index: 1000;
+} */
 
 .navbar {
-    /* position: relative; */
     width: 100%;
     background-color: var(--galactica);
     height: 60px;
     z-index: 2;
-    transition: position 0.5s ease;
-}
-
-
-.navbar.scrolled {
-    position: fixed;
-    top: 0;
-    background-color: #FDFDFD;
-    transition: background-color top 1s;
-    padding-bottom: 24px;
-    width: 100%;
-
+    transition: 1s ease-in;
 }
 
 .navbar-collapse,
@@ -386,6 +381,7 @@ img[alt='img-about'] {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .services-title i {
@@ -405,7 +401,7 @@ img[alt='img-about'] {
 .services-location {
     margin: 0 auto;
     text-align: center;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 .services-location button {
@@ -436,7 +432,8 @@ img[alt='img-about'] {
     font-family: 'IRANSansWeb';
     background-color: var(--eburnean);
     z-index: 0;
-
+    /* width: 20%; */
+    margin: 10px;
 }
 
 .container-cards-inner .card:hover {
@@ -562,6 +559,7 @@ img[alt='img-about'] {
     border-top-color: transparent !important;
 }
 
+
 .card-subtitle button {
     font-size: 1.2rem;
     position: relative;
@@ -580,7 +578,7 @@ img[alt='img-about'] {
 .card-subtitle button:hover:after {
     transition: all 0.5s;
     opacity: 1;
-    left: 20%;
+    left: 23%;
 }
 
 button.btn-service[aria-expanded='true'] {
@@ -696,6 +694,11 @@ button.btn-service[aria-expanded='true'] {
     color: var(--white50-bootstrap);
 }
 
+.footer-container-inner{
+    width: 80%;
+    margin: auto;
+}
+
 .footer-container-inner .title-footer {
     display: flex;
     justify-content: space-between;
@@ -742,9 +745,11 @@ button.btn-service[aria-expanded='true'] {
     color: var(--downy-teal);
     font-size: 1.3rem;
     margin: 0 5px;
+    transition-duration: 0.3s;
 }
 
 .footer-container-inner .socials-footer i:hover {
+    transform: scale(1.5);
     color: cyan;
 }
 
@@ -776,6 +781,10 @@ button.btn-service[aria-expanded='true'] {
 .footer-container-inner div.row div:last-of-type p {
     color: #ccc;
     opacity: 0.7;
+}
+
+.links-socials-footer{
+    padding: 0 20px;
 }
 
 /* Contact-Us */
@@ -858,6 +867,7 @@ button.btn-service[aria-expanded='true'] {
 
 
 .support-site-container .card {
+    z-index: 100;
     border-radius: 10px;
     width: 350px;
     height: 550px;

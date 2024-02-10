@@ -51,7 +51,11 @@
 .accounting-container {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .accounting-container-inner {
@@ -81,7 +85,7 @@
 
 .accounting-box-container {
     position: absolute;
-    top: 30px;
+    top: calc(50% - 300px);
     right: 120px;
     width: 700px;
     height: 600px;
@@ -91,8 +95,6 @@
     /* align-items: center; */
     box-shadow: 1px 1px 15px var(--white50-bootstrap);
     background-color: var(--white50-bootstrap);
-
-
 }
 
 .accounting-box {
@@ -105,7 +107,7 @@
 
 .account-register fieldset,
 .account-login fieldset {
-    width: 350px !important; 
+    width: 350px !important;
     border-radius: 13px !important;
     border-width: 1px !important;
     border-color: #ccc !important;
@@ -261,19 +263,23 @@
     transition: all 1s;
 }
 
+.accounting-left-socials i {
+    transition-duration: 0.3s;
+}
+
 .accounting-left-socials a:hover i {
     color: var(--downy-teal);
     transform: scale(1.5);
 }
 
-#messages-accounting{
+#messages-accounting {
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: 7px;
+    left: 7px;
 }
 
-.messages-form{
-    background-color: rgb(255, 193, 7,0.9);
+.messages-form {
+    background-color: rgb(255, 193, 7, 0.9);
     padding: 5px 20px;
     color: var(--dark-bootstrap);
     width: 450px;
@@ -281,20 +287,20 @@
     display: none;
 }
 
-.messages-form h3{
+.messages-form h3 {
     margin: 7px 0;
     color: var(--danger-bootstrap);
     text-shadow: 2px 2px 5px var(--white50-bootstrap);
 }
 
-.messages-form ul{
+.messages-form ul {
     margin: 5px 0;
 }
 
-.messages-form ul li{
+.messages-form ul li {
     font-size: 0.9rem;
     line-height: 25px;
-    
+
 }
 
 

@@ -5,7 +5,9 @@ function scroll_page() {
     var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
 
     if ($(window).scrollTop() > 150) {
-        $('.navbar').addClass('fixed-top')
+        // $('#navbar-container').addClass('sticky-top');
+        $('.navbar').addClass('fixed-top');
+
     } else {
         $('.navbar').removeClass('fixed-top');
     };
@@ -92,7 +94,7 @@ function scroll_anchor_link() {
             var hash = this.hash;
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
-            }, 2000, function () {
+            }, 1500, function () {
                 window.location.hash = hash;
             });
         }
@@ -146,5 +148,6 @@ $(document).ready(function () {
 
     navigation_top();
 
-    toggle_search_nav()
+    toggle_search_nav();
+
 })
